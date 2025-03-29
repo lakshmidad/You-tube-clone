@@ -37,3 +37,24 @@
     text-decoration: none;
     color: black;
 }
+/* Content area */
+.content {
+    margin-left: 220px; /* To avoid overlap with sidebar */
+    padding: 20px;
+}
+
+/* Video Grid */
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 videos per row */
+    gap: 15px; /* Space between videos */
+}
+
+.video {
+    text-align: center;
+}
+
+.video img {
+    width: 100%;
+    border-radius: 10px;
+}
